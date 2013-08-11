@@ -20,7 +20,7 @@ SERVING_TYPES = (
                  ('ounce', 'Ounce'),
                  ('cup', 'Cup'),
                  ('pound', 'Pound'),
-                 ('pint', 'Very Active'),
+                 ('pint', 'Pint'),
                  ('tablespoon', 'Tablespoon'),
                  ('teaspoon', 'Teaspoon'),
                  ('gram', 'Gram'),
