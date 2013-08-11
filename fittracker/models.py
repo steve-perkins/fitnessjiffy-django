@@ -75,7 +75,7 @@ class Food(models.Model):
     sodium = models.FloatField()
 
     def __unicode__(self):
-        return self.name + " - " + self.default_serving_type
+        return self.name + " - " + str(self.serving_type_qty) + " " + self.default_serving_type
 
     class Meta:
         db_table = 'foods'
