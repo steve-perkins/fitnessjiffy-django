@@ -91,7 +91,7 @@ class FoodEaten(models.Model):
     serving_qty = models.FloatField()
     
     def __unicode__(self):
-        return self.user.username + ", " + self.date.strftime("%Y-%m-%d") + " - " + self.food.name
+        return self.user.username + ", " + self.date.strftime("%Y-%m-%d") + " - " + self.food.name + " " + str(self.serving_qty) + " " + self.serving_type 
     
     class Meta:
         db_table = 'foods_eaten'
