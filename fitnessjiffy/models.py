@@ -27,6 +27,11 @@ SERVING_TYPES = (
                  ('CUSTOM', 'CUSTOM'),
 )
 
+YES_NO_FLAGS = (
+                ('Y', 'Y'),
+                ('N', 'N'),
+)
+
 class User(models.Model):
     gender = models.CharField(max_length=7, choices=GENDERS)
     age = models.IntegerField()
@@ -36,6 +41,7 @@ class User(models.Model):
     password = models.CharField(max_length=50)
     first_name = models.CharField(max_length=50)
     last_name = models.CharField(max_length=50)
+    active = models.CharField(max_length=1, choices=YES_NO_FLAGS)
     
     def __unicode__(self):
         return self.first_name + " " + self.last_name
