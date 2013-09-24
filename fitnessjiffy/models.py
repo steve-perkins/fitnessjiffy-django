@@ -102,7 +102,7 @@ class FoodEaten(models.Model):
 
 class Exercise(models.Model):
     name = models.CharField(max_length=50)
-    calories_per_hour = models.FloatField()
+    calories_per_hour = models.IntegerField()
     
     def __unicode__(self):
         return self.name

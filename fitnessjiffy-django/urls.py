@@ -6,8 +6,8 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     # Examples:
-    # url(r'^$', 'fittracker-django.views.home', name='home'),
-    # url(r'^fittracker-django/', include('fittracker-django.foo.urls')),
+    # url(r'^$', 'fitnessjiffy-django.views.home', name='home'),
+    # url(r'^fitnessjiffy-django/', include('fitnessjiffy-django.foo.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),

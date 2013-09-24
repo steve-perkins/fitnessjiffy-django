@@ -1,5 +1,5 @@
 from django.contrib import admin
-from fittracker.models import User, Food, FoodEaten, Exercise, ExercisePerformed, Weight
+from fitnessjiffy.models import User, Food, FoodEaten, Exercise, ExercisePerformed, Weight
 
 admin.site.register(User)
 admin.site.register(Weight)
